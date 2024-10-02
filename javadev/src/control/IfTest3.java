@@ -20,5 +20,6 @@ public class IfTest3 {
 		} else {
 			System.out.println('F');
 		}
+		System.out.println("종료");
 	}
 }
