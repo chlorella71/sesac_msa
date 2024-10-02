@@ -2,12 +2,12 @@ package basic;
 
 public class PrimitiveTypeTest {
 	public static void main(String[] args) {
-		boolean b = true; // 1byte할, 1bit사용
+		boolean b = true; // 1 byte할당, 1bit사용
 		byte b2 = 127;
 		System.out.println(b2);
 		
 		char c = '가';
-		char c2 = 65;
+		char c2= 65;
 		System.out.println(c);
 		System.out.println(c2);
 		
@@ -22,7 +22,10 @@ public class PrimitiveTypeTest {
 		double pi = 3.1415926535;
 		System.out.println(pi);
 		
-		float pi2 = 3.14159262535f;
+		float pi2 = 3.1415926535f;
 		System.out.println(pi2);
+		
+		String str = "가나다";
+		System.out.println(str);
 	}
 }
