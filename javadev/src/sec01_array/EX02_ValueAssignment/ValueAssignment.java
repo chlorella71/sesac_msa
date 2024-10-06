@@ -28,8 +28,8 @@ public class ValueAssignment {
 		int[] array5 = {3,4,5};
 		System.out.println(array5[0] + " " + array5[1] + " " + array5[2] );
 		
-		int[] array6;
-		array6 = { 3,4,5};
-		System.out.println(array6[0] + " " + array6[1] + " " + array6[2]);
+//		int[] array6; 
+//		array6 = { 3,4,5}; // 불가능
+//		System.out.println(array6[0] + " " + array6[1] + " " + array6[2]);
 	}
 }
