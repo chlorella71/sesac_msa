@@ -6,7 +6,7 @@ public class MethodsOfString_2 {
 	public static void main(String[] args) {
 		//문자열 수정
 		//@toLowerCase(), toUpperCase()
-		String str1 = "Java Study";
+		String str1 = "Java_Study";
 		System.out.println(str1.toLowerCase());
 		System.out.println(str1.toUpperCase());
 		System.out.println();
@@ -17,6 +17,8 @@ public class MethodsOfString_2 {
 		
 		//@substring()
 		System.out.println(str1.substring(0, 5));
+//		str1 =  (str1.substring(0,5));
+//		System.out.println(str1);
 		System.out.println();
 		
 		//@split()
