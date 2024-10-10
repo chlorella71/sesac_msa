@@ -1,5 +1,7 @@
 package oop2;
 
+
+
 public class PointTest {
 	public static void main(String[] args) {
 //		Point2D pt1 = new Point2D();
