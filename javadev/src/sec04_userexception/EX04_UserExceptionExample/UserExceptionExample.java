@@ -38,7 +38,7 @@ public class UserExceptionExample {
 		try {
 			a.checkScore(85);
 			a.checkScore(-20);
-			a.checkScore(150);
+//			a.checkScore(150);
 		} catch (MinusException | OverException e) {
 			System.out.println(e.getMessage());
 		}
